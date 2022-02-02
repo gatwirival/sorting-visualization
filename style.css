@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(12, 12, 100);
+}
+div {
+    margin-left: 40px;
+    margin-top: 20px}
+text {
+    fill: white;
+}
+rect {
+    fill: palevioletred;
+}
+
+.sorted {
+    fill: green;
+}
+.min {
+    fill: white;
+}
+.testing {
+    fill:green;
+}
+.btn{
+    background-color: rgb(3, 3, 70);
+    margin-left: 10px;
+    margin-top:30px;
+    color: cornsilk;
+    height:50px;
+}

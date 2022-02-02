@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+    
+    <script src="//d3js.org/d3.v4.min.js"></script>
+</head>
+<body>
+    <div id="buttons">
+        <button onclick="mergeSort()"class="btn">Merge Sort</button>
+        <button onclick="insertionSort()"class="btn">Insertion Sort</button>
+        <button onclick="selectionSort()"class="btn">Selection Sort</button>
+        <button onclick="bubbleSort()"class="btn">Bubble Sort</button>
+        <button onclick="bogoSort()"class="btn">Bogosort</button>
+        <button onclick="stop = true" style="margin-left:40px"class="btn">Stop</button>
+        <button onclick="reset()"class="btn">Reset</button>
+        <button onclick="array = d3.shuffle(d3.range(1,count));reset()"class="btn">Shuffle</button>
+    </div>
+    <div>Steps: <span id="counter">0</span></div>
+    <script src="bogosort.js"></script>
+    <script src="bubblesort.js"></script>
+    <script src="insertion.js"></script>
+    <script src="merge sort.js"></script>
+    <script src="sorting.js"></script>
+    <script src="selection.js"></script>
+    <link rel="stylesheet" href="style.css">
+</body>
+
